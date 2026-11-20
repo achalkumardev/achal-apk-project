@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear1" android:background="@color/background" android:layout_width="match_parent" android:layout_height="100.0dp" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/top" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/topBack" android:padding="10.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginRight="8.0dp" android:src="@drawable/arrow_back_40px" android:scaleType="fitCenter" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/textPrimary" android:gravity="center" android:id="@id/topTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginRight="8.0dp" android:text="Settings" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/linear18" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/linear5" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/outerColourdLinear" android:background="@color/appcolor" android:paddingLeft="3.0dp" android:paddingRight="3.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15.0dp">
+                    <LinearLayout android:gravity="left|top" android:orientation="vertical" android:id="@id/main_back" android:background="@color/linearHighlight" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <EditText android:textSize="12.0sp" android:textColor="#000000" android:textColorHint="#607d8b" android:id="@id/result" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:hint="Edit Text" />
+                        <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/hidden" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/outer_line1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp">
+                            <LinearLayout android:orientation="vertical" android:id="@id/outer_line" android:layout_width="match_parent" android:layout_height="match_parent">
+                                <LinearLayout android:orientation="horizontal" android:id="@id/linear20" android:padding="2.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dp">
+                                    <androidx.cardview.widget.CardView android:id="@id/cardview01" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="10.0dp" app:cardElevation="0.0dp">
+                                        <ImageView android:id="@id/thumbinal" android:layout_width="match_parent" android:layout_height="178.0dp" android:src="@drawable/thumbnail" android:scaleType="fitXY" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                                <LinearLayout android:orientation="horizontal" android:id="@id/linear21" android:layout_width="match_parent" android:layout_height="match_parent">
+                                    <LinearLayout android:orientation="vertical" android:id="@id/linear24" android:layout_width="match_parent" android:layout_height="match_parent">
+                                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear28" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/textPrimary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tittle1" android:padding="8.0dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginTop="2.0dp" android:layout_marginRight="8.0dp" android:layout_marginBottom="2.0dp" android:text="Electric Potential and Capacitance : Revision 01 || (NO DPP)" android:maxLines="2" android:lines="2" android:layout_weight="1.0" />
+                                        </LinearLayout>
+                                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lowerLinear" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/durationLinear" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="10.0dp" android:layout_weight="1.0">
+                                                <ImageView android:id="@id/imageview1" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginLeft="8.0dp" android:layout_marginTop="2.0dp" android:layout_marginBottom="2.0dp" android:src="@drawable/movie_24px" android:scaleType="fitCenter" />
+                                                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/appcolor" android:ellipsize="end" android:id="@id/duration" android:paddingLeft="8.0dp" android:paddingTop="2.0dp" android:paddingRight="8.0dp" android:paddingBottom="2.0dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginTop="2.0dp" android:layout_marginRight="8.0dp" android:layout_marginBottom="2.0dp" android:text="03:04:53" android:maxLines="1" />
+                                            </LinearLayout>
+                                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dateLinear" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_weight="1.0">
+                                                <ImageView android:id="@id/imageview3" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginLeft="8.0dp" android:layout_marginTop="2.0dp" android:layout_marginBottom="2.0dp" android:src="@drawable/event_note_24px" android:scaleType="fitCenter" />
+                                                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/appcolor" android:ellipsize="end" android:gravity="right" android:id="@id/date" android:paddingLeft="8.0dp" android:paddingTop="2.0dp" android:paddingRight="8.0dp" android:paddingBottom="2.0dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginTop="2.0dp" android:layout_marginRight="8.0dp" android:layout_marginBottom="2.0dp" android:text="TextView" android:maxLines="1" />
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/linear55" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linear54" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button" android:background="@color/appcolor" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/downloadNow" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Download Now ( Offline )" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linear48" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:paddingBottom="25.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wthbtn" android:background="@color/onBackground" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/background" android:id="@id/textview5" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Watch Now ( Online )" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

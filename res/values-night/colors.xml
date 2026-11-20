@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appcolor">#7c63f1</color>
+    <color name="background">#1c1b24</color>
+    <color name="black">#ff000000</color>
+    <color name="border">#555555</color>
+    <color name="bottomColor">#eeeeee</color>
+    <color name="errorColor">#cf6679</color>
+    <color name="linearHighlight">#292735</color>
+    <color name="onBackground">#ffffff</color>
+    <color name="onError">#000000</color>
+    <color name="onPrimary">#000000</color>
+    <color name="onSecondary">#000000</color>
+    <color name="onSurface">#ffffff</color>
+    <color name="primaryColor">#1c1b24</color>
+    <color name="primaryDarkColor">#1c1b24</color>
+    <color name="primaryLightColor">#1c1b24</color>
+    <color name="secondaryColor">#1c1b24</color>
+    <color name="secondaryDarkColor">#1c1b24</color>
+    <color name="secondaryLightColor">#1c1b24</color>
+    <color name="surface">#1c1b24</color>
+    <color name="textPrimary">#ffffff</color>
+    <color name="textSecondary">#b3b3b3</color>
+</resources>

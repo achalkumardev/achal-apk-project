@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear2" android:background="@color/background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear16" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/linear17" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="8.0dp" android:layout_marginTop="20.0dp">
+                <ImageView android:id="@id/imageview1" android:layout_width="70.0dp" android:layout_height="70.0dp" android:src="@drawable/logo3" android:scaleType="centerInside" />
+            </LinearLayout>
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie1" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="200.0dp" android:scaleType="fitCenter" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="books.json" app:lottie_loop="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear3" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/appcolor" android:gravity="center_horizontal" android:id="@id/wel_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="WELCOME" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/textPrimary" android:gravity="center_horizontal" android:id="@id/pw_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TO AS MULTIVERSE [ PW ]" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear18" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/textSecondary" android:gravity="center_horizontal" android:id="@id/subtitletextview" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Best Teacher | Free Education | Live Classes | DPP | Notes" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/number_linear" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp">
+            <LinearLayout android:orientation="horizontal" android:id="@id/mobile_linear" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/changecountry" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear24" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <TextView android:textSize="16.0sp" android:textColor="#000000" android:id="@id/flag" android:paddingLeft="8.0dp" android:paddingTop="2.0dp" android:paddingRight="2.0dp" android:paddingBottom="2.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🇮🇳" />
+                        <ImageView android:id="@id/imageview2" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/arrow_drop_down_24px" android:scaleType="centerInside" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/bar" android:background="@color/border" android:padding="8.0dp" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" />
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/textPrimary" android:id="@id/ind_code_textview" android:paddingTop="4.0dp" android:paddingRight="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+91" />
+                <EditText android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/textPrimary" android:textColorHint="@color/textSecondary" android:gravity="center_vertical" android:id="@id/email_edittext" android:background="@android:color/transparent" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:hint="Enter Mobile Number " android:singleLine="true" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="actionNext" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/linear25" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/buttons_linear" android:paddingLeft="36.0dp" android:paddingTop="16.0dp" android:paddingRight="36.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/password_button" android:background="#2962ff" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp">
+                <ProgressBar android:id="@id/progressBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="false" style="?android:progressBarStyle" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/textview5" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Login with Mobile" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/otp_button" android:background="#2962ff" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="16.0dp">
+                <ProgressBar android:id="@id/progressbar1" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="false" style="?android:progressBarStyle" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/textPrimary" android:id="@id/textview9" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Login with Token" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp" parent="@style/Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="android:statusBarColor">?isLightTheme</item>
+        <item name="android:windowLightStatusBar">?isLightTheme</item>
+        <item name="android:windowLightNavigationBar">?isLightTheme</item>
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        <item name="colorOnError">@color/onError</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryContainer">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/onBackground</item>
+        <item name="colorSecondaryVariant">@color/onBackground</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="textInputStyle">@style/TextInputLayoutOutlinedBox</item>
+    </style>
+</resources>

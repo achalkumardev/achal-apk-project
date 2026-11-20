@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mainLoading" android:background="@color/background" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:id="@id/progressbar1" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="false" android:progressTint="@color/appcolor" android:indeterminateTint="@color/appcolor" style="?android:progressBarStyle" />
+        <TextView android:textSize="20.0sp" android:textColor="#6149eb" android:id="@id/textview1" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading..." />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:id="@id/body" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/linear1" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/todaySchLinear1" android:background="@color/appcolor" android:paddingLeft="3.0dp" android:paddingRight="3.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp">
+                <LinearLayout android:orientation="vertical" android:id="@id/todaySchLinear2" android:background="@color/background" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear8" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/imageview1" android:layout_width="35.0dp" android:layout_height="35.0dp" android:src="@drawable/calendar_clock" android:scaleType="fitCenter" />
+                        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/textPrimary" android:id="@id/textview3" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Today's Schedule " android:layout_weight="1.0" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@id/viewAllButton" android:background="@color/appcolor" android:paddingLeft="16.0dp" android:paddingTop="8.0dp" android:paddingRight="13.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="View All" />
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview1" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/emptySchlinear" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="180.0dp">
+                        <ImageView android:id="@id/imageview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/calendar_clock" android:scaleType="center" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/textPrimary" android:id="@id/textview4" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No classes scheduled for Today...!" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/emptyLinear" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear5" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie1" android:padding="8.0dp" android:layout_width="250.0dp" android:layout_height="250.0dp" android:scaleType="fitCenter" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="empty.json" app:lottie_loop="true" />
+                    <TextView android:textSize="20.0sp" android:textColor="@color/appcolor" android:gravity="center" android:id="@id/textview2" android:padding="1.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

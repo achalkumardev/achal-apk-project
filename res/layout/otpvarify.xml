@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dp" android:src="@drawable/ic_otp_screen" android:scaleType="center" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear3" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@color/textPrimary" android:id="@id/textview1" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter OTP " />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/textview2" android:background="@color/appcolor" android:paddingLeft="10.0dp" android:paddingTop="2.0dp" android:paddingRight="10.0dp" android:paddingBottom="2.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="* * * * * *" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear4" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/textPrimary" android:id="@id/textview3" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6 Digit Code sent to" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/appcolor" android:id="@id/textview4" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+91 0000000000" />
+            <ImageView android:id="@id/imageview2" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/edit_square_24px" android:scaleType="fitCenter" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/linear5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/otpLinear" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/linear_edttext1" android:background="@color/design_dark_default_color_background" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:layout_weight="1.0">
+                    <EditText android:textSize="30.0sp" android:textColor="@color/textPrimary" android:textColorHint="#607d8b" android:gravity="center" android:id="@id/edittext_pass1" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/linear_edttext2" android:background="@color/design_dark_default_color_background" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:layout_weight="1.0">
+                    <EditText android:textSize="30.0sp" android:textColor="@color/textPrimary" android:textColorHint="#607d8b" android:gravity="center" android:id="@id/edittext_pass2" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/linear_edttext3" android:background="@color/design_dark_default_color_background" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:layout_weight="1.0">
+                    <EditText android:textSize="30.0sp" android:textColor="@color/textPrimary" android:textColorHint="#607d8b" android:gravity="center" android:id="@id/edittext_pass3" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/linear_edttext4" android:background="@color/design_dark_default_color_background" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:layout_weight="1.0">
+                    <EditText android:textSize="30.0sp" android:textColor="@color/textPrimary" android:textColorHint="#607d8b" android:gravity="center" android:id="@id/edittext_pass4" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/linear_edttext5" android:background="@color/design_dark_default_color_background" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:layout_weight="1.0">
+                    <EditText android:textSize="30.0sp" android:textColor="@color/textPrimary" android:textColorHint="#607d8b" android:gravity="center" android:id="@id/edittext_pass5" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/linear_edttext6" android:background="@color/design_dark_default_color_background" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:layout_weight="1.0">
+                    <EditText android:textSize="30.0sp" android:textColor="@color/textPrimary" android:textColorHint="#607d8b" android:gravity="center" android:id="@id/edittext_pass6" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:inputType="numberSigned" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/otpAsklinear" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/barlinear1" android:background="@color/border" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="@color/textSecondary" android:ellipsize="end" android:gravity="center" android:id="@id/textview7" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Or Try getting OTP Via" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/barlinear2" android:background="@color/border" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/otp_button" android:background="#2962ff" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp">
+            <ProgressBar android:id="@id/progressbar1" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="false" style="?android:progressBarStyle" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/textPrimary" android:id="@id/textview9" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WhatsApp" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/linear6" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/password_button" android:background="#2962ff" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp">
+            <ProgressBar android:id="@id/progressBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="false" style="?android:progressBarStyle" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:id="@id/textview5" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Verify OTP" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

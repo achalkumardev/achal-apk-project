@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/top" android:background="@color/surface" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/topBack" android:padding="10.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginRight="8.0dp" android:src="@drawable/arrow_back_40px" android:scaleType="fitCenter" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/textPrimary" android:gravity="center" android:id="@id/topTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginRight="8.0dp" android:text="topTitle" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear3" android:background="@color/border" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tablayout1" android:background="@color/primaryColor" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabGravity="center" app:tabIndicator="@drawable/rounded_tab_indicator" app:tabMode="scrollable" app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear2" android:background="@color/background" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="5.0dp" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewpager1" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/outer_line1" android:layout_width="match_parent" android:layout_height="65.0dp" android:layout_marginLeft="10.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="5.0dp">
+        <LinearLayout android:orientation="horizontal" android:id="@id/blue1" android:background="#5d4ae2" android:layout_width="5.0dp" android:layout_height="40.0dp" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear01" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="#000000" android:gravity="center_vertical" android:id="@id/ncert_dis" android:padding="5.0dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="NCERT Discussion" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear6" android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp">
+            <ImageView android:id="@id/imageview1" android:padding="4.0dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chevron_right_40px" android:scaleType="centerInside" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
